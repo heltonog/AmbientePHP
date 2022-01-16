@@ -1,0 +1,21 @@
+version: "2"
+services:
+ AmbientePHP:
+  # Nome do host
+  hostname: AmbientePHP
+  # Localização script para construção da image do docker
+  build: .
+  # Nome do container
+  container_name: AmbientePHP
+  # Nome da imagem a ser criada
+  image: imageambientephp:0.0.1
+  # Diretórios compartilhados do hospedeiro e o container
+  volumes:
+   - ./files_public:/home/web/public
+   - ./ssh_rsa:/home/web/.ssh
+  # Porta associando portas do container a máquina hospedeira
+  ports:
+   - 81:80
+   - 8001:8000
+  #
+  tty: true

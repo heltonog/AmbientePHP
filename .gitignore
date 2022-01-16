@@ -1,0 +1,5 @@
+ssh_rsa/id_rsa
+ssh_rsa/id_rsa.pub
+!ssh_rsa/gerando_chave.sh
+files_public/*
+!files_public/index.php
