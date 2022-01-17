@@ -15,7 +15,7 @@ services:
    - ./ssh_rsa:/home/web/.ssh
   # Porta associando portas do container a máquina hospedeira
   ports:
-   - 81:80
-   - 8001:8000
+   - 82:80
+   - 8002:8000
   #
   tty: true

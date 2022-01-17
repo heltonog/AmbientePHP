@@ -7,9 +7,10 @@ e este projeto segue o [Versionamento Semântico](https://semver.org/lang/pt-BR/
 ## [0.0.1] - 2022-01-16
 ### Adicionado
 - Este changelog.
-- A maneira de como contribuir para o projeto, em [CONTRIBUTING](CONTRIBUTING.md).
-- A licença do projeto [LICENSE](LICENSE.md).
-- A presentação do projeto [README](README.md).
-- O arquivo docker [Dockerfile](Dockerfile), bem como o [docker-compose](docker-compose.yml).
-- O automatizador de tarefas [Make](https://www.gnu.org/software/make/) no arquivo [Makefile](Makefile), com as seguintes tarefas como "criar_imagem" e "remover_imagem" inicialmente.
+- Maneira de como contribuir para o projeto, em [CONTRIBUTING](CONTRIBUTING.md).
+- Licença do projeto [LICENSE](LICENSE.md).
+- Presentação do projeto [README](README.md).
+- Arquivo docker [Dockerfile](Dockerfile), bem como o [docker-compose](docker-compose.yml).
+- Automatizador de tarefas [Make](https://www.gnu.org/software/make/) no arquivo [Makefile](Makefile), com as seguintes tarefas como "criar_imagem" e "remover_imagem" inicialmente.
 - Script para criação de par de chaves publica e privada [gerando_chave.sh](ssh_rsa/gerando_chave.sh).
+- Arquivo com a lista de repositório debian [sources.list](files_config/sources.list).
