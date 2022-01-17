@@ -1,2 +1,2 @@
 # Repositório debian buster
-deb http://deb.debian.org/debian stable main
+deb http://deb.debian.org/debian stable main contrib non-free

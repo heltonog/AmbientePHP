@@ -8,7 +8,7 @@ services:
   # Nome do container
   container_name: AmbientePHP
   # Nome da imagem a ser criada
-  image: imageambientephp:0.0.1
+  image: imageambientephp:0.0.2
   # Diretórios compartilhados do hospedeiro e o container
   volumes:
    - ./files_public:/home/web/public

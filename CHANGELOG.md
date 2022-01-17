@@ -4,6 +4,14 @@ O registro de todas as mundanças deste projeto vai ser documentada neste arquiv
 O formato está baseado no [Keep a Changelog](https://keepachangelog.com/pt-BR/1.0.0/),
 e este projeto segue o [Versionamento Semântico](https://semver.org/lang/pt-BR/spec/v2.0.0.html).
 
+## [0.0.2] - 2022-01-17
+### Adicionado
+- Nova configurações do arquivo docker [Dockerfile](Dockerfile).
+- Script de execução continua [entrypoint.sh](entrypoint.sh).
+
+### Modificado
+- Repositório debian [sources.list](files_config/sources.list).
+
 ## [0.0.1] - 2022-01-16
 ### Adicionado
 - Este changelog.
